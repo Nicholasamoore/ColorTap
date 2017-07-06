@@ -1,0 +1,38 @@
+canvas {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: #5C258D;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+html, body {
+	height: 100%
+}
+
+body {
+	margin: 0; padding: 0;
+}
+
+h1 {
+	position: absolute;
+	background: none;
+	margin: 0;
+	padding-left: 4px;
+	color: white;
+	height: 50px;
+}
+
+#help {
+	font-family: Roboto;
+	font-size: 15px;
+	padding-left: 10px;
+	transition: 0.3s linear;
+	opacity: 0;
+}
+
+h1:hover #help {
+	width: 100px;
+	opacity: 1.0;
+}
